@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #ff3300;
+}
+
+/* Hero section */
+.hero-section {
+    height: 80vh;
+    background-image: url('images/hero-car.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-section h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-section .btn {
+    background-color: #ff3300;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-section .btn:hover {
+    background-color: #d82a00;
+}
+
+/* Models section */
+.models-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.models-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.model-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.model-card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.model-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.model-card h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.model-card p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.model-card .btn {
+    background-color: #ff3300;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.model-card .btn:hover {
+    background-color: #d82a00;
+}
+
+/* Contact section */
+.contact-section {
+    background-color: #111;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    background-color: #ff3300;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #d82a00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
