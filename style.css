@@ -1,3 +1,4 @@
+/* Estilo geral */
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +35,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16px;
 }
@@ -43,10 +44,10 @@ header nav ul li a:hover {
     color: #ff3300;
 }
 
-/* Hero section */
+/* Hero section com imagem de fundo */
 .hero-section {
     height: 80vh;
-    background-image: url('images/hero-car.jpg');
+    background-image: url('images/car-background.avif'); /* Aqui você pode colocar a imagem de fundo do carro */
     background-size: cover;
     background-position: center;
     display: flex;
