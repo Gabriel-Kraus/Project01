@@ -47,7 +47,7 @@ header nav ul li a:hover {
 /* Hero section com imagem de fundo */
 .hero-section {
     height: 80vh;
-    background-image: url('images/car-background.avif'); /* Aqui você pode colocar a imagem de fundo do carro */
+    background-image: url('images/car-background.jpg'); /* Aqui você pode colocar a imagem de fundo do carro */
     background-size: cover;
     background-position: center;
     display: flex;
